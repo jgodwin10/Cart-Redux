@@ -1,7 +1,16 @@
+import img1 from '/images/prod1.png'
+
+
+
+
+
+
+
+
 const productsData = [
     {
         id: 1,
-        img: "/images/prod1.png",
+        img: img1,
         rating: "★★★★★",
         title: "boAt Airdopes 131",
         price: 1099,
