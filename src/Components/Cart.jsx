@@ -18,7 +18,8 @@ const CartOverlay = tw.div`
 `;
 
 const CartBody = tw.div`
-   w-[600px]
+   md:w-[600px]
+  w-[100vw]
    py-20
    z-[999]
    absolute
@@ -40,7 +41,8 @@ const CartTotal = tw.div`
    absolute
    top-0
    right-0
-   w-[600px]
+   md:w-[600px]
+   w-[100%]
    z-[9999999]
    text-center
    text-[30px]
@@ -67,7 +69,7 @@ const Cart = () => {
           <CartTotal>
             <p
               onClick={handleCloseCart}
-              className=" cursor-pointer text-[30px] absolute left-5 top-3"
+              className=" cursor-pointer text-[30px] absolute left-8 top-3"
             >
               {" "}
               x

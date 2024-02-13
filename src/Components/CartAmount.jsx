@@ -9,7 +9,8 @@ const Cart = tw.div`
    absolute
    bottom-0
    right-0
-   w-[600px]
+   md:w-[600px]
+   w-[100%]
    shadow-[0_-15px_10px_0_rgba(0,0,0,0.3)]
    py-4
    z-[9999999]
